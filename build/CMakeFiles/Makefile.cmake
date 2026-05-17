@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
+  "../components/CLIManager/CMakeLists.txt"
+  "../components/LogManager/CMakeLists.txt"
   "../components/SQLiteManager/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
@@ -116,10 +118,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "components/SQLiteManager/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "components/CLIManager/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "components/LogManager/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/meshtastic_app.dir/DependInfo.cmake"
   "components/SQLiteManager/CMakeFiles/SQLiteManager.dir/DependInfo.cmake"
+  "components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/DependInfo.cmake"
+  "components/LogManager/CMakeFiles/LogManager.dir/DependInfo.cmake"
   )

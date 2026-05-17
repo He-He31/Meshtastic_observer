@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCLI_MANAGER_LIB.a CMakeFiles/CLI_MANAGER_LIB.dir/src/JsonParser.cpp.o CMakeFiles/CLI_MANAGER_LIB.dir/src/MeshtasticCLI.cpp.o
+/usr/bin/ranlib libCLI_MANAGER_LIB.a

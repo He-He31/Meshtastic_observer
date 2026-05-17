@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+CLI_MANAGER_LIB_BINARY_DIR:STATIC=/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/CLIManager
+
+//Value Computed by CMake
+CLI_MANAGER_LIB_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+CLI_MANAGER_LIB_SOURCE_DIR:STATIC=/home/xv12rq/LeetCode_tasks/TRPO_Lab/components/CLIManager
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -210,6 +219,15 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+LogManager_BINARY_DIR:STATIC=/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/LogManager
+
+//Value Computed by CMake
+LogManager_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+LogManager_SOURCE_DIR:STATIC=/home/xv12rq/LeetCode_tasks/TRPO_Lab/components/LogManager
+
+//Value Computed by CMake
 Meshtastic_client_BINARY_DIR:STATIC=/home/xv12rq/LeetCode_tasks/TRPO_Lab/build
 
 //Value Computed by CMake
@@ -332,7 +350,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

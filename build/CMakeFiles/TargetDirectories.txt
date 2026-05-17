@@ -4,3 +4,9 @@
 /home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/SQLiteManager/CMakeFiles/SQLiteManager.dir
 /home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/SQLiteManager/CMakeFiles/edit_cache.dir
 /home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/SQLiteManager/CMakeFiles/rebuild_cache.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/CLIManager/CMakeFiles/edit_cache.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/CLIManager/CMakeFiles/rebuild_cache.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/LogManager/CMakeFiles/LogManager.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/LogManager/CMakeFiles/edit_cache.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/LogManager/CMakeFiles/rebuild_cache.dir

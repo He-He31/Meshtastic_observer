@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/meshtastic_app.dir/main.cpp.o -o meshtastic_app  components/SQLiteManager/libSQLiteManager.a 
+/usr/bin/c++ CMakeFiles/meshtastic_app.dir/main.cpp.o -o meshtastic_app  components/SQLiteManager/libSQLiteManager.a components/CLIManager/libCLI_MANAGER_LIB.a components/LogManager/libLogManager.a 

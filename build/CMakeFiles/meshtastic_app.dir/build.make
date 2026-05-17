@@ -93,6 +93,8 @@ meshtastic_app_EXTERNAL_OBJECTS =
 meshtastic_app: CMakeFiles/meshtastic_app.dir/main.cpp.o
 meshtastic_app: CMakeFiles/meshtastic_app.dir/build.make
 meshtastic_app: components/SQLiteManager/libSQLiteManager.a
+meshtastic_app: components/CLIManager/libCLI_MANAGER_LIB.a
+meshtastic_app: components/LogManager/libLogManager.a
 meshtastic_app: CMakeFiles/meshtastic_app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable meshtastic_app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/meshtastic_app.dir/link.txt --verbose=$(VERBOSE)

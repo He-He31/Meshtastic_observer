@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLogManager.a CMakeFiles/LogManager.dir/src/LogManager.cpp.o
+/usr/bin/ranlib libLogManager.a

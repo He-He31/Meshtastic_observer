@@ -65,16 +65,52 @@ CMAKE_BINARY_DIR = /home/xv12rq/LeetCode_tasks/TRPO_Lab/build
 # The main recursive "all" target.
 all: CMakeFiles/meshtastic_app.dir/all
 all: components/SQLiteManager/all
+all: components/CLIManager/all
+all: components/LogManager/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: components/SQLiteManager/preinstall
+preinstall: components/CLIManager/preinstall
+preinstall: components/LogManager/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/meshtastic_app.dir/clean
 clean: components/SQLiteManager/clean
+clean: components/CLIManager/clean
+clean: components/LogManager/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory components/CLIManager
+
+# Recursive "all" directory target.
+components/CLIManager/all: components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/all
+.PHONY : components/CLIManager/all
+
+# Recursive "preinstall" directory target.
+components/CLIManager/preinstall:
+.PHONY : components/CLIManager/preinstall
+
+# Recursive "clean" directory target.
+components/CLIManager/clean: components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/clean
+.PHONY : components/CLIManager/clean
+
+#=============================================================================
+# Directory level rules for directory components/LogManager
+
+# Recursive "all" directory target.
+components/LogManager/all: components/LogManager/CMakeFiles/LogManager.dir/all
+.PHONY : components/LogManager/all
+
+# Recursive "preinstall" directory target.
+components/LogManager/preinstall:
+.PHONY : components/LogManager/preinstall
+
+# Recursive "clean" directory target.
+components/LogManager/clean: components/LogManager/CMakeFiles/LogManager.dir/clean
+.PHONY : components/LogManager/clean
 
 #=============================================================================
 # Directory level rules for directory components/SQLiteManager
@@ -96,14 +132,16 @@ components/SQLiteManager/clean: components/SQLiteManager/CMakeFiles/SQLiteManage
 
 # All Build rule for target.
 CMakeFiles/meshtastic_app.dir/all: components/SQLiteManager/CMakeFiles/SQLiteManager.dir/all
+CMakeFiles/meshtastic_app.dir/all: components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/all
+CMakeFiles/meshtastic_app.dir/all: components/LogManager/CMakeFiles/LogManager.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/meshtastic_app.dir/build.make CMakeFiles/meshtastic_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/meshtastic_app.dir/build.make CMakeFiles/meshtastic_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles --progress-num=4,5 "Built target meshtastic_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles --progress-num=9,10 "Built target meshtastic_app"
 .PHONY : CMakeFiles/meshtastic_app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/meshtastic_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/meshtastic_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles 0
 .PHONY : CMakeFiles/meshtastic_app.dir/rule
@@ -124,7 +162,7 @@ CMakeFiles/meshtastic_app.dir/clean:
 components/SQLiteManager/CMakeFiles/SQLiteManager.dir/all:
 	$(MAKE) $(MAKESILENT) -f components/SQLiteManager/CMakeFiles/SQLiteManager.dir/build.make components/SQLiteManager/CMakeFiles/SQLiteManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f components/SQLiteManager/CMakeFiles/SQLiteManager.dir/build.make components/SQLiteManager/CMakeFiles/SQLiteManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles --progress-num=1,2,3 "Built target SQLiteManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles --progress-num=6,7,8 "Built target SQLiteManager"
 .PHONY : components/SQLiteManager/CMakeFiles/SQLiteManager.dir/all
 
 # Build rule for subdir invocation for target.
@@ -142,6 +180,58 @@ SQLiteManager: components/SQLiteManager/CMakeFiles/SQLiteManager.dir/rule
 components/SQLiteManager/CMakeFiles/SQLiteManager.dir/clean:
 	$(MAKE) $(MAKESILENT) -f components/SQLiteManager/CMakeFiles/SQLiteManager.dir/build.make components/SQLiteManager/CMakeFiles/SQLiteManager.dir/clean
 .PHONY : components/SQLiteManager/CMakeFiles/SQLiteManager.dir/clean
+
+#=============================================================================
+# Target rules for target components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir
+
+# All Build rule for target.
+components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/all:
+	$(MAKE) $(MAKESILENT) -f components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/build.make components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/depend
+	$(MAKE) $(MAKESILENT) -f components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/build.make components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles --progress-num=1,2,3 "Built target CLI_MANAGER_LIB"
+.PHONY : components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/all
+
+# Build rule for subdir invocation for target.
+components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles 0
+.PHONY : components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/rule
+
+# Convenience name for target.
+CLI_MANAGER_LIB: components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/rule
+.PHONY : CLI_MANAGER_LIB
+
+# clean rule for target.
+components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/clean:
+	$(MAKE) $(MAKESILENT) -f components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/build.make components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/clean
+.PHONY : components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/clean
+
+#=============================================================================
+# Target rules for target components/LogManager/CMakeFiles/LogManager.dir
+
+# All Build rule for target.
+components/LogManager/CMakeFiles/LogManager.dir/all:
+	$(MAKE) $(MAKESILENT) -f components/LogManager/CMakeFiles/LogManager.dir/build.make components/LogManager/CMakeFiles/LogManager.dir/depend
+	$(MAKE) $(MAKESILENT) -f components/LogManager/CMakeFiles/LogManager.dir/build.make components/LogManager/CMakeFiles/LogManager.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles --progress-num=4,5 "Built target LogManager"
+.PHONY : components/LogManager/CMakeFiles/LogManager.dir/all
+
+# Build rule for subdir invocation for target.
+components/LogManager/CMakeFiles/LogManager.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/LogManager/CMakeFiles/LogManager.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles 0
+.PHONY : components/LogManager/CMakeFiles/LogManager.dir/rule
+
+# Convenience name for target.
+LogManager: components/LogManager/CMakeFiles/LogManager.dir/rule
+.PHONY : LogManager
+
+# clean rule for target.
+components/LogManager/CMakeFiles/LogManager.dir/clean:
+	$(MAKE) $(MAKESILENT) -f components/LogManager/CMakeFiles/LogManager.dir/build.make components/LogManager/CMakeFiles/LogManager.dir/clean
+.PHONY : components/LogManager/CMakeFiles/LogManager.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

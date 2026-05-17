@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libCLI_MANAGER_LIB.a"
+)

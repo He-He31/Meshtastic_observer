@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/SQLiteManager/CMakeFiles/SQLiteManager.dir/DependInfo.cmake"
+  "/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/DependInfo.cmake"
+  "/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/LogManager/CMakeFiles/LogManager.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

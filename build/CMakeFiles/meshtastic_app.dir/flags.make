@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/xv12rq/LeetCode_tasks/TRPO_Lab/components/SQLiteManager/include
+CXX_INCLUDES = -I/home/xv12rq/LeetCode_tasks/TRPO_Lab/components/SQLiteManager/include -I/home/xv12rq/LeetCode_tasks/TRPO_Lab/components/CLIManager/include -I/home/xv12rq/LeetCode_tasks/TRPO_Lab/components/LogManager/include
 
 CXX_FLAGS = 
 

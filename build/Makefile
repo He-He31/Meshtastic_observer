@@ -142,6 +142,32 @@ SQLiteManager/fast:
 	$(MAKE) $(MAKESILENT) -f components/SQLiteManager/CMakeFiles/SQLiteManager.dir/build.make components/SQLiteManager/CMakeFiles/SQLiteManager.dir/build
 .PHONY : SQLiteManager/fast
 
+#=============================================================================
+# Target rules for targets named CLI_MANAGER_LIB
+
+# Build rule for target.
+CLI_MANAGER_LIB: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CLI_MANAGER_LIB
+.PHONY : CLI_MANAGER_LIB
+
+# fast build rule for target.
+CLI_MANAGER_LIB/fast:
+	$(MAKE) $(MAKESILENT) -f components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/build.make components/CLIManager/CMakeFiles/CLI_MANAGER_LIB.dir/build
+.PHONY : CLI_MANAGER_LIB/fast
+
+#=============================================================================
+# Target rules for targets named LogManager
+
+# Build rule for target.
+LogManager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LogManager
+.PHONY : LogManager
+
+# fast build rule for target.
+LogManager/fast:
+	$(MAKE) $(MAKESILENT) -f components/LogManager/CMakeFiles/LogManager.dir/build.make components/LogManager/CMakeFiles/LogManager.dir/build
+.PHONY : LogManager/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -174,6 +200,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... CLI_MANAGER_LIB"
+	@echo "... LogManager"
 	@echo "... SQLiteManager"
 	@echo "... meshtastic_app"
 	@echo "... main.o"
