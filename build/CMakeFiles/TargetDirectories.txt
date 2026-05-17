@@ -1,0 +1,6 @@
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles/meshtastic_app.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles/edit_cache.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/CMakeFiles/rebuild_cache.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/SQLiteManager/CMakeFiles/SQLiteManager.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/SQLiteManager/CMakeFiles/edit_cache.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/build/components/SQLiteManager/CMakeFiles/rebuild_cache.dir

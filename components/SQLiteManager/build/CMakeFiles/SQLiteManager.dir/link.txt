@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSQLiteManager.a CMakeFiles/SQLiteManager.dir/src/sqlite3.c.o CMakeFiles/SQLiteManager.dir/src/SQLiteManager.cpp.o
+/usr/bin/ranlib libSQLiteManager.a

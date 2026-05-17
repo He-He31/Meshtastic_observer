@@ -1,0 +1,3 @@
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/components/SQLiteManager/build/CMakeFiles/SQLiteManager.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/components/SQLiteManager/build/CMakeFiles/edit_cache.dir
+/home/xv12rq/LeetCode_tasks/TRPO_Lab/components/SQLiteManager/build/CMakeFiles/rebuild_cache.dir
